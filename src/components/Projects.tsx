@@ -12,9 +12,9 @@ const labelColors: Record<string, string> = {
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-28 max-w-6xl mx-auto px-6 lg:px-8">
+    <section id="projects" className="py-16 md:py-28 max-w-6xl mx-auto px-6 lg:px-8">
       <ScrollReveal>
-        <h2 className="text-3xl font-bold text-[#f0f0f0] mb-14 flex items-center gap-4">
+        <h2 className="text-3xl font-bold text-[#f0f0f0] mb-8 md:mb-14 flex items-center gap-4">
           <span className="text-[#22c55e] font-mono text-xl font-normal">03.</span>
           Projects
           <span className="h-px flex-1 bg-[#2a2a2a] max-w-xs" />

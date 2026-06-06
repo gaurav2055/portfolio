@@ -4,9 +4,9 @@ import { GithubIcon, LinkedinIcon } from "./Icons";
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-28 max-w-6xl mx-auto px-6 lg:px-8">
+    <section id="contact" className="py-16 md:py-28 max-w-6xl mx-auto px-6 lg:px-8">
       <ScrollReveal>
-        <h2 className="text-3xl font-bold text-[#f0f0f0] mb-14 flex items-center gap-4">
+        <h2 className="text-3xl font-bold text-[#f0f0f0] mb-8 md:mb-14 flex items-center gap-4">
           <span className="text-[#22c55e] font-mono text-xl font-normal">05.</span>
           Get In Touch
           <span className="h-px flex-1 bg-[#2a2a2a] max-w-xs" />

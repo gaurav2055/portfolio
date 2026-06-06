@@ -3,10 +3,10 @@ import { experiences, education } from "@/lib/data";
 
 export default function Experience() {
   return (
-    <section id="experience" className="py-28 bg-[#0a0a0a]">
+    <section id="experience" className="py-16 md:py-28 bg-[#0a0a0a]">
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
         <ScrollReveal>
-          <h2 className="text-3xl font-bold text-[#f0f0f0] mb-14 flex items-center gap-4">
+          <h2 className="text-3xl font-bold text-[#f0f0f0] mb-8 md:mb-14 flex items-center gap-4">
             <span className="text-[#22c55e] font-mono text-xl font-normal">02.</span>
             Experience
             <span className="h-px flex-1 bg-[#2a2a2a] max-w-xs" />
