@@ -36,9 +36,11 @@ export default function About() {
 					</p>
 					<p>
 						Before that, I spent two years at{" "}
-						<span className='text-[#f0f0f0]'>Wipro Ltd </span> delivering 12+ insurance
-						products on a MERN-stack platform for one of India&apos;s largest insurers — integrating 30+
-						third-party systems and reducing execution time by 35–40%.
+						<span className='text-[#f0f0f0]'>Wipro Ltd</span>, delivering 12+ insurance
+						products for{" "}
+						<span className='text-[#f0f0f0]'>Aditya Birla Sun Life Insurance (ABSLI)</span>{" "}
+						on a MERN-stack platform &mdash; integrating 30+ third-party systems and
+						reducing execution time by 35&ndash;40%.
 					</p>
 					<p>
 						I&apos;m actively looking for full-stack and software engineering roles, and
