@@ -17,7 +17,7 @@ export default function Home() {
       <Skills />
       <Contact />
       <footer className="border-t border-[#2a2a2a] py-6 text-center">
-        <p className="text-[#3a3a3a] text-sm font-mono">
+        <p className="text-[#555555] text-sm font-mono">
           Designed &amp; Built by Gaurav Suvarna
         </p>
       </footer>

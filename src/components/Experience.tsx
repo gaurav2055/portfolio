@@ -14,10 +14,10 @@ export default function Experience() {
         </ScrollReveal>
 
         {/* Timeline */}
-        <div className="relative pl-6 border-l border-[#2a2a2a]">
+        <div className="relative pl-6 border-l border-[#2a2a2a] space-y-12">
           {experiences.map((exp, i) => (
             <ScrollReveal key={i} delay={i * 0.15}>
-              <div className="relative mb-12 last:mb-0">
+              <div className="relative">
                 {/* Timeline dot */}
                 <div className="absolute -left-[29px] top-1.5 w-3 h-3 rounded-full bg-[#22c55e] ring-4 ring-[#0a0a0a]" />
 
