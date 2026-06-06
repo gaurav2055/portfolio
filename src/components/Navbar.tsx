@@ -47,7 +47,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="https://drive.google.com/file/d/1_placeholder/view"
+              href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-[#22c55e] text-[#22c55e] px-4 py-1.5 rounded text-sm font-medium hover:bg-[#22c55e]/10 transition-colors"
@@ -82,7 +82,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="https://drive.google.com/file/d/1_placeholder/view"
+              href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-[#22c55e] text-[#22c55e] px-4 py-2 rounded text-sm font-medium text-center hover:bg-[#22c55e]/10 transition-colors"

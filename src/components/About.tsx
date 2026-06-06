@@ -1,5 +1,6 @@
 import ScrollReveal from "./ScrollReveal";
 import { MapPin, GraduationCap, Briefcase } from "lucide-react";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -43,9 +44,16 @@ export default function About() {
 
         {/* Avatar + quick facts — takes 2 of 5 columns */}
         <ScrollReveal delay={0.2} className="md:col-span-2 flex flex-col items-center gap-8">
-          {/* Initials avatar */}
-          <div className="w-44 h-44 rounded-full border-2 border-[#22c55e] flex items-center justify-center bg-[#161616] text-[#22c55e] text-5xl font-bold select-none shadow-[0_0_40px_rgba(34,197,94,0.1)]">
-            GS
+          {/* Avatar */}
+          <div className="w-44 h-44 rounded-full border-2 border-[#22c55e] overflow-hidden shadow-[0_0_40px_rgba(34,197,94,0.12)] shrink-0">
+            <Image
+              src="/avatar.jpeg"
+              alt="Gaurav Suvarna"
+              width={176}
+              height={176}
+              className="w-full h-full object-cover object-[50%_12%]"
+              priority
+            />
           </div>
 
           {/* Quick facts */}
